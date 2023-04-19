@@ -10,7 +10,6 @@ AsyncJobResult = namedtuple("AsyncJobResult", "input result error")
 
 # MAGIC %sql
 # MAGIC SET spark.databricks.io.cache.enabled = false;
-# MAGIC SET spark.databricks.delta.formatCheck.enabled = false; -- in case we need to inspect individual parquet files in a delta folder
 
 # COMMAND ----------
 

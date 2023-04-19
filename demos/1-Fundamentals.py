@@ -58,7 +58,7 @@ dbutils.fs.rm(table_path, True)
 protcol_str = json.dumps(protocol)
 metadata_str = json.dumps(metadata)
 
-content = protcol_str + "\n" +metadata_str
+content = protcol_str + "\n" + metadata_str
 
 dbutils.fs.put(f"{table_path}/_delta_log/00000000000000000000.json", content)
 print(f"table_path: {table_path}")
@@ -85,7 +85,7 @@ spark.read.format("delta").load(table_path).display()
 
 # COMMAND ----------
 
-write_parquet_file( {"id": [1,2], "name": ["first", "second updated"]}, f"{table_path}/file2.parquet")
+write_parquet_file( {"id": [1, 2], "name": ["first", "second updated"]}, f"{table_path}/file2.parquet")
 add = {
     "add": {
         "path": "file2.parquet",
