@@ -3,8 +3,8 @@ Code sample and resources for Brisbane DataEng meetup April 2023.
 
 Demos:
 - [1 - Fundamentals](./demos/1-Fundamentals.py)
-- [2 - Concurrency](./demos/1-Concurrency.py)
-- [3 - Optimisations](./demos/1-Optimisations.py)
+- [2 - Concurrency](./demos/2-Concurrency.py)
+- [3 - Optimisations](./demos/3-Optimisations.py)
 
 
 Resources:

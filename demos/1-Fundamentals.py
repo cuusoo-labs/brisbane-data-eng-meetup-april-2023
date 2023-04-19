@@ -1,5 +1,5 @@
 # Databricks notebook source
-# DBTITLE 1,Disable disk cache
+# DBTITLE 1,Disable disk (parquet) cache
 spark.conf.set("spark.databricks.io.cache.enabled", "false")
 
 # COMMAND ----------
